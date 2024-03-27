@@ -1,0 +1,119 @@
+footer{
+    height:auto;
+    width:100%;
+    background-color: #000000;
+    z-index: 100;
+}
+.footer-panel-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width:100%;
+    color:white;
+    background-color: #37475a;
+    cursor: pointer;
+    transition: all 0.20s;
+}
+.footer-panel-first:hover{
+    background-color: rgb(86, 100, 119)
+}
+.footer-links-first{
+    color: white;
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    background-color: #232f3e;
+}
+.footer-links-first p{
+    font-size: 16px;
+    font-weight:500;
+}
+.footer-links-first ul{
+    list-style-type: none;
+    margin-top: 14px;
+    padding-inline-start:0;
+    color:#dddddd;
+    font-size: 14px;
+}
+.footer-links-first li{
+    margin-top:5px;
+}
+.footer-links-first a{
+    color:#dddddd;
+    text-decoration: none;
+}
+.footer-links-first a:hover{
+    text-decoration: underline;
+}
+.footer-links-first{
+    border-bottom: 0.031rem solid #37475a;
+}
+.footer-links-second{
+    background-color: #232f3e;
+}
+.footer-links-second{
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links-second-first{
+    margin-right:100px;
+}
+.footer-links-second-first img{
+    height:23px;
+    width:76px;
+}
+.footer-links-second-second{
+    height:30px;
+    color:#dddddd;
+    border:1px solid #dddddd;
+    display:flex;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:2px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.footer-links-second-second i{
+    margin-right:10px;
+}
+.footer-links-second-third{
+    height:30px;
+    color:#dddddd;
+    border:1px solid #dddddd;
+    display:flex;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:2px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.footer-links-second-fourth{
+    height:30px;
+    color:#dddddd;
+    border:1px solid #dddddd;
+    display:flex;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:2px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.footer-links-second-fourth img{
+    height:17px;
+    width:24px;
+    margin-right: 8px;
+}
+.footer-about{
+    background-color: #131A22;
+    height:auto;
+    width:100%;
+}
