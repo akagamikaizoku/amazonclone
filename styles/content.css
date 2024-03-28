@@ -28,6 +28,8 @@
     padding-right: 100px;
     border-radius: 4px;
     bottom:200px;
+    poosition:fixed;
+    top:300px;
 }
 .description-container a{
     transition: color 0.20s;
