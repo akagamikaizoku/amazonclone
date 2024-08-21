@@ -113,7 +113,13 @@ footer{
     margin-right: 8px;
 }
 .footer-about{
+    display: flex;
     background-color: #131A22;
-    height:auto;
+    height:50px;
     width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-about div{
+    color:white;
 }
